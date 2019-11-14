@@ -46,7 +46,7 @@ def hit?(h_or_s)
       return h_or_s
     else
       a = deal_card
-      return h_or_s
+      return h_or_s + a
     end
   end
 end
