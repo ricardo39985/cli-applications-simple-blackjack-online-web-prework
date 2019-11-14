@@ -38,7 +38,6 @@ end
 def hit?(h_or_s)
   # code hit? here
   #initial_round
-  pp h_or_s
   prompt_user
   get_user_input
   h_or_s
