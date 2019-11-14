@@ -41,14 +41,18 @@ def hit?(h_or_s)
   prompt_user
   k = get_user_input
   h_or_s
-  while k =='s' or k == 'h'
+  while k 
     if k == 's'
       return h_or_s
-    else
+    elsif k == 'h'      
       a = deal_card
       return h_or_s + a
+    else
+      puts "Please enter a valid command"
+      k = get_user_input
     end
   end
+  
 end
 
 def invalid_command
