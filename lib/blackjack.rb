@@ -40,7 +40,6 @@ def hit?(h_or_s)
   #initial_round
   prompt_user
   get_user_input
-  initial_round
 end
 
 def invalid_command
