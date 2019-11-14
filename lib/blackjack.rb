@@ -39,8 +39,11 @@ def hit?(h_or_s)
   # code hit? here
   #initial_round
   prompt_user
-  get_user_input
+  k = get_user_input
   h_or_s
+  while condition
+    
+  end
 end
 
 def invalid_command
