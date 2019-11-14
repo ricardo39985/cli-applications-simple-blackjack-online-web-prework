@@ -46,7 +46,7 @@ def hit?(h_or_s)
       return h_or_s
     elsif k == 'h'
       a = deal_card
-      h_or_s + a
+      return h_or_s + a
     else
       puts "Please enter a valid command"
       k = get_user_input
