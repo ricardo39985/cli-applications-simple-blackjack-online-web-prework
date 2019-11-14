@@ -41,6 +41,13 @@ def hit?(h_or_s)
   prompt_user
   k = get_user_input
   h_or_s
+  while k =='s' or k == 'h'
+    if k == 's'
+      h_or_s
+    else
+      a = deal_card
+    end
+  end
 end
 
 def invalid_command
