@@ -39,7 +39,7 @@ def hit?(h_or_s)
   # code hit? here
   initial_round
   prompt_user
-  k = get_user_input
+  get_user_input
   while k == 's' or k == 'h'
     k = get_user_input
     if k == 's'
