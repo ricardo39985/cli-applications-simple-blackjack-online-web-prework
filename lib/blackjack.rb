@@ -67,4 +67,7 @@ end
 
 def runner
   # code runner here
+  welcome
+  hit?(k)
+  display_card_total
 end
