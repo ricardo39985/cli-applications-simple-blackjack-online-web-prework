@@ -49,9 +49,11 @@ def hit?(h_or_s)
       return h_or_s + a
     else
       puts "Please enter a valid command"
+      prompt_user
+      k = get_user_input
+      return k
     end
   end
-
 end
 
 def invalid_command
