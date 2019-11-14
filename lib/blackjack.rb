@@ -37,11 +37,19 @@ end
 
 def hit?(h_or_s)
   # code hit? here
-
-  cards = deal_card + deal_card
-  display_card_total(cards)
+  initial_round
   prompt_user
-  get_user_input
+  k = get_user_input
+  while k == 's' or k == 'h'
+    k = get_user_input
+    if k == 's'
+      initial_round
+      break
+    else
+      i = deal_card
+      pp i + display_card_total
+    end
+  end
 end
 
 def invalid_command
