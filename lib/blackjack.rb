@@ -41,10 +41,10 @@ def hit?(h_or_s)
   prompt_user
   k = get_user_input
   h_or_s
-  while k 
+  while k
     if k == 's'
       return h_or_s
-    elsif k == 'h'      
+    elsif k == 'h'
       a = deal_card
       return h_or_s + a
     else
@@ -52,7 +52,7 @@ def hit?(h_or_s)
       k = get_user_input
     end
   end
-  
+
 end
 
 def invalid_command
