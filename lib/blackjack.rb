@@ -42,7 +42,7 @@ def hit?(h_or_s)
   k = get_user_input
   h_or_s
   while condition
-    
+
   end
 end
 
