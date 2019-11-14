@@ -41,6 +41,7 @@ def hit?(h_or_s)
   pp h_or_s
   prompt_user
   get_user_input
+  h_or_s
 end
 
 def invalid_command
