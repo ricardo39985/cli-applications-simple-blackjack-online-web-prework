@@ -43,9 +43,10 @@ def hit?(h_or_s)
   h_or_s
   while k =='s' or k == 'h'
     if k == 's'
-      h_or_s
+      return h_or_s
     else
       a = deal_card
+      return h_or_s
     end
   end
 end
